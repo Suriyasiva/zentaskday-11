@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+.bgsheet{
+    display: flex;
+    flex-direction: column;
+}
+
+.heading2{
+    
+}
+
+.li2{
+    list-style: circle;
+margin-left: 25px;
+}
+.li3{
+    list-style: lower-alpha;
+    margin-left:40px;
+}
+
+
+.box{
+    width: 300px;
+    height: 300px;
+    background-color:white;
+    border: 2px solid black;
+    
+}
+    </style>
+  </head>
+  <body>
+    <script src="day11.js"></script>
+
+    <!-- 3.Design a contact us form with all fields as required. -->
+    <div class="bgsheet">
+      <h2> To contact us please enter your information</h2>
+      <label for="name">Name</label>
+      <input type="text" placeholder="enter your name" id="name" name=""  /> 
+      <label for="Number">Number</label>
+      <input type="number" placeholder="enter the phonenumber" id="Number" />
+      <label for="Email">Eamil</label>
+      <input type="email" placeholder="enter the email id" id="Email" />
+      <input style="margin-top: 10px;" type="button" value="submit">
+    </div>
+
+
+
+
+    <!-- Use certain HTML elements to display the following in a HTML page. -->
+
+
+<ul><li class="heading2" >Programming Language</li>
+    <li class="li2">JavaScript</li></ul>
+
+<ul><li class="li3">Angular</li>
+    <li class="li3">React</li>
+    <li class="li3">vue.js</li></ul>
+<ul class="li2"><li>Python</li></ul>
+<ul class="li3"><li>Django framework</li>
+    <li>flask framework</li></ul>
+
+
+<ul class="li2"><li>java</li></ul>
+<ul class="li3"><li>Spring</li>
+    <li>maven</li>
+    <li>hibernate</li></ul>
+
+
+
+<ul>
+<li class="heading2" >Database</li>
+<li class="li2">MySQL</li>
+<li class="li2">MongoDB</li>
+<li class="li2">Cansandra</li>
+
+</ul>
+
+
+<!-- In the form, add two radio buttons with grouping them for employee type(Salaried and own business) -->
+<h2>form</h2>
+<label for="name">Name</label> <br>
+<input type="text" placeholder="enter your name" id="name" name=""  /> <br>
+<label for="Number">Number</label><br>
+<input type="number" placeholder="enter the phonenumber" id="Number" /> <br>
+<label for="Email">Eamil</label> <br>
+<input type="email" placeholder="enter the email id" id="Email" /> <br>
+occupation <br>
+<input type="radio" name="occupation" id="salaried">
+<label for="salaried">salaried</label>
+
+<input type="radio" name=" occupation" id="own business">
+<label for="own business">own business</label> <br>
+<input style="margin-top: 10px;" type="button" value="submit"> <br>
+
+<!-- Create an element that helps you to open the https://google.com in separate new tab. -->
+
+<a href="https://google.com" target="sepearte">go to google</a>
+
+
+<!-- In your, HTML page add the below line and Highlight it without using any CSS.
+"HTML & CSS is awesome" -->
+
+
+<p><ins><mark> HTML & CSS is awesome</mark></ins></p>
+
+
+<!-- Create an HTML page, which should contain all types of input elements. -->
+
+
+<!-- Design form shown in the link (http://evc-cit.info/cit040/formguide/card_0.png) -->
+
+<div class="box">
+    <p style="background-color: red; font-size: 10px; margin: 2px; ">yes! i want to subscribe mag-o-zine</p>
+    <div style="font-size: 10px; text-decoration: overline; margin-top: 30px; ">
+        
+        <span style="margin-right: 50px;margin-left: 5px; ">firstname&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> <span style="margin-left: 5px;">lastname&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <hr style="margin-left: 5px; margin-right: 5px; margin-top: 20px; margin-bottom: 0;">
+       
+    </div>
+    <p style="margin-top: 0; margin-left: 5px; ">address</p>
+    <div style="margin-top: 20px; margin-right: 50px; text-decoration: overline; text-align: center;">
+<span style=" margin-right: 50px;">city</span><span style=" margin-right: 50px;">state</span><span style=" margin-right: 50px;" >zip</span>
+
+    </div>
+<span>subscribe for:</span><input type="checkbox" id="1year" name="sub"><label for="1year">1year</label><input type="checkbox" name="sub" id="2year"><label for="2year">2year</label>
+
+<p>sendme more information about</p>
+<input type="checkbox"> computer zine<br><input type="checkbox"> fishingzine<br><input type="checkbox">catozine
+</div>
+
+
+<!-- -------------------------------------------------------------------------------- -->
+ <p>all types of input elments</p>
+
+<input type="button" value=""> 
+<input type="color" name="" id="">
+<input type="checkbox" name="" id="">
+<input type="date" name="" id="">
+<input type="datetime" name="" id="">
+<input type="email" name="" id="">
+<input type="file" name="" id="">
+<input type="number" name="" id="">
+<input type="password" name="" id="">
+<input type="radio" name="" id="">
+<input type="image" src="" alt="">
+<input type="url" name="" id="">
+<input type="text" name="" id="">
+<input type="submit" value="">
+<input type="search" name="" id="">
+<input type="reset" name="" id="">
+
+
+</body>
+</html>
